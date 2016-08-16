@@ -1,4 +1,5 @@
 all:
+	mkdir -p bin
 	javac -cp libs/openrq-3.3.2.jar -d bin/ src/se/uu/it/uno/openrqcli/Main.java
 	mkdir -p tmp
 	unzip -q libs/openrq-3.3.2.jar -d tmp
